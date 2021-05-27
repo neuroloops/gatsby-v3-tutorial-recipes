@@ -11,7 +11,7 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "simply recipes",
+    title: "SimplyRecipes",
     description: "Nice and clean recipes site",
     author: "@LudoLoops",
     person: { name: "Ludo", age: 32 },
@@ -55,6 +55,7 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
